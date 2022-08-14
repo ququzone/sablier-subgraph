@@ -14,8 +14,8 @@
     "deploy-remote": "graph deploy sablier/test --debug --ipfs https://ipfs.mainnet.iotex.io --node https://rpc.graph.mainnet.iotex.io/"
   },
   "devDependencies": {
-    "@graphprotocol/graph-cli": "^0.23.0",
-    "@graphprotocol/graph-ts": "^0.23.0",
+    "@graphprotocol/graph-cli": "^0.21.0",
+    "@graphprotocol/graph-ts": "^0.21.0",
     "@typescript-eslint/eslint-plugin": "^2.0.0",
     "@typescript-eslint/parser": "^2.0.0",
     "eslint": "^6.2.2",
