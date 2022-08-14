@@ -8,8 +8,8 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "create-local": "graph create sablier/testnet --node http://127.0.0.1:8020",
-    "deploy-local": "graph deploy sablier/testnet --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
+    "create-local": "graph create sablier --node http://127.0.0.1:8020",
+    "deploy-local": "graph deploy sablier --debug --ipfs http://localhost:5001 --node http://127.0.0.1:8020",
     "create-remote": "graph create sablier/test --node https://rpc.graph.mainnet.iotex.io/",
     "deploy-remote": "graph deploy sablier/test --debug --ipfs https://ipfs.mainnet.iotex.io --node https://rpc.graph.mainnet.iotex.io/"
   },
