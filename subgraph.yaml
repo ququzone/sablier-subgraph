@@ -6,11 +6,11 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: SablierV1.1.0
-    network: iotex
+    network: iotex_testnet
     source:
       abi: Sablier
-      address: "0x93Efd750a7F589f9FE26408a91e15587a88c4E78"
-      startBlock: 18957133
+      address: "0xDD8E213659852034A5768A2266f9fA10224D6d1F"
+      startBlock: 15808590
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.4
